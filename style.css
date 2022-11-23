@@ -100,15 +100,19 @@ h6 {
 .flex-group {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .button {
   background-color: var(--clr-primary-900);
   color: var(--clr-neutral-100);
   border: none;
-  border-radius: 0.5em;
-  padding: 0.75em;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+.button:is(:hover, :focus) {
+  background-color: var(--clr-neutral-900);
 }
 
 /* General Styling */
@@ -120,19 +124,20 @@ body {
   background-color: var(--clr-neutral-100);
   display: grid;
   align-items: center;
+  padding: 1rem;
 }
 
 /* Components */
 
 .product {
-  --content-padding: 2em;
+  --content-padding: 1.825rem;
 
   background-color: var(--clr-primary-200);
   border-radius: 0.5rem;
   max-width: 600px;
   margin: 0 auto;
-  padding: 1em;
   display: grid;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 600px) {
@@ -148,6 +153,7 @@ body {
 }
 
 .product__category {
+  font-size: 0.825rem;
   color: var(--clr-neutral-400);
   letter-spacing: 0.5em;
   text-transform: uppercase;
