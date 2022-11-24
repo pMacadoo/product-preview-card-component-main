@@ -132,6 +132,12 @@ body {
   padding: 1rem;
 }
 
+@media screen and (min-width: 600px) {
+  body {
+    background-color: var(--clr-primary-200);
+  }
+}
+
 /* Components */
 
 .product {
@@ -145,9 +151,10 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .product {
     grid-template-columns: 1fr 1fr;
+    background-color: var(--clr-neutral-100);
   }
 }
 
