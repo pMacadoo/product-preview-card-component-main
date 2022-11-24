@@ -12,7 +12,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -32,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/pMacadoo/product-preview-card-component-main](https://github.com/pMacadoo/product-preview-card-component-main)
+- Live Site URL: [https://subtle-pika-88bca7.netlify.app/](https://subtle-pika-88bca7.netlify.app/)
 
 ## My process
 
@@ -65,7 +64,7 @@ This is the first time I've used the `<picture>` and `<source>` elements.
 </picture>
 ```
 
-I've also starting using the `:root {}` element in css as well to set global styles.
+I've also started using the `:root {}` element in CSS as well to set global styles.
 
 ```css
 :root {
@@ -89,11 +88,6 @@ I've also starting using the `:root {}` element in css as well to set global sty
 BEM has been an enjoyable methodology to employ for better CSS organization and scalability. I will continue to use it for future projects.
 
 There are still elements in HMTL and CSS I want to become more familiar with. Particularly, CSS Grid and `@media` queries.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
