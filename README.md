@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-(images/mobile-screenshot.jpg)
+![](images/mobile-screenshot.jpg)
 ![](images/desktop-screenshot.jpg)
 
 ### Links
@@ -47,21 +47,41 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is the first time I've used the <picture> and <source> elements.
 
-To see how you can add code snippets, see below:
+I've also starting using the :root {} element is css as well to set global styles.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<picture class="product__img">
+  <source
+    media="(min-width: 600px)"
+    srcset=
+      "images/image-product-mobile.jpg  375w,
+      images/image-product-desktop.jpg 600w"
+    sizes=
+      "(min-width: 375px),
+      (min-width: 600px)"
+  />
+  <img
+    src="images/image-product-mobile.jpg"
+    alt="perfume bottle laying down among green leaves"
+  />
+</picture>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+:root {
+  --clr-primary-900: hsl(158, 36%, 37%);
+  --clr-primary-200: hsl(30, 38%, 92%);
+
+  --clr-neutral-900: hsl(212, 21%, 14%);
+  --clr-neutral-400: hsl(228, 12%, 48%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --ff-regular: "Montserrat", sans-serif;
+  --ff-accent: "Fraunces", serif;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
 }
 ```
 
@@ -85,10 +105,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/pmacadoo)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
