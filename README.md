@@ -88,7 +88,7 @@ I've also starting using the `:root {}` element in css as well to set global sty
 
 BEM has been an enjoyable methodology to employ for better CSS organization and scalability. I will continue to use it for future projects.
 
-There are still elements in HMTL and CSS I want to become more familiar with. Particularly CSS Grid and @media queries.
+There are still elements in HMTL and CSS I want to become more familiar with. Particularly, CSS Grid and `@media` queries.
 
 ### Useful resources
 
@@ -97,8 +97,8 @@ There are still elements in HMTL and CSS I want to become more familiar with. Pa
 
 ## Author
 
-- GitHub - [pMacadoo](https://github.com/pMacadoo)
-- Frontend Mentor - [@pMacadoo](https://www.frontendmentor.io/profile/pmacadoo)
+- GitHub - [pmacadoo](https://github.com/pmacadoo)
+- Frontend Mentor - [@pmacadoo](https://www.frontendmentor.io/profile/pmacadoo)
 
 ## Acknowledgments
 
