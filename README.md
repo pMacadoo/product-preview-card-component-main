@@ -97,8 +97,8 @@ There are still elements in HMTL and CSS I want to become more familiar with. Pa
 
 ## Author
 
-- GitHub - [pmacadoo](https://github.com/pmacadoo)
-- Frontend Mentor - [@pmacadoo](https://www.frontendmentor.io/profile/pmacadoo)
+- GitHub - [pMacadoo](https://github.com/pmacadoo)
+- Frontend Mentor - [@pMacadoo](https://www.frontendmentor.io/profile/pmacadoo)
 
 ## Acknowledgments
 
