@@ -25,10 +25,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![](images/mobile-screenshot.jpg)
-![](images/desktop-screenshot.jpg)
+![mobile screenshot](images/mobile-screenshot.JPG)
+![desktop screenshot](images/desktop-screenshot.JPG)
 
 ### Links
 
@@ -47,20 +47,16 @@ Users should be able to:
 
 ### What I learned
 
-This is the first time I've used the <picture> and <source> elements.
-
-I've also starting using the :root {} element is css as well to set global styles.
+This is the first time I've used the `<picture>` and `<source>` elements.
 
 ```html
 <picture class="product__img">
   <source
     media="(min-width: 600px)"
     srcset=
-      "images/image-product-mobile.jpg  375w,
+      "images/image-product-mobile.jpg 375w,
       images/image-product-desktop.jpg 600w"
-    sizes=
-      "(min-width: 375px),
-      (min-width: 600px)"
+    sizes="(min-width: 375px), (min-width: 600px)"
   />
   <img
     src="images/image-product-mobile.jpg"
@@ -68,6 +64,9 @@ I've also starting using the :root {} element is css as well to set global style
   />
 </picture>
 ```
+
+I've also starting using the `:root {}` element in css as well to set global styles.
+
 ```css
 :root {
   --clr-primary-900: hsl(158, 36%, 37%);
